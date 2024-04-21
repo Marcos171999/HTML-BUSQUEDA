@@ -48,6 +48,104 @@ a{
     padding-left: 20%;
    
 }
+.imagen2{
+    width: 250px;
+    height: 250px;
+    padding-left: 20%;
+    margin-top: 10%;
+}
+.imagen3{
+    width: 250px;
+    height: 250px;
+    padding-left: 20%;
+    margin-top: 20%;
+}
+
+footer{
+    margin-top: 10%;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+.section-cards {
+    width: 100%;
+    height: 500px;
+    background-color: rgb(244, 245, 196);
+    text-align: center;
+}
+
+.section-cards h2 {
+    padding-top: 20px;
+    margin-top: 10px;
+}
+
+.contenedor-cards {
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+.card {
+    width: 22%;
+    height: 300px;
+    background-color: rgb(244, 245, 196);
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.foto {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    background-color: rgb(247, 163, 108);
+    border-radius: 10px 10px 0px 0px;
+}
+
+
+
+
+.subtitulo{
+    
+    background-color: rgb(187, 162, 115);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+th{
+    
+    border: 2px solid rgb(51, 47, 9);
+    
+}
+
+.icono2{
+    width: 50px;
+    height: 50px;
+    padding: 10px 10px;
+}
+
+
+
+
+
+
+
 
 
 
