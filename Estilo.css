@@ -13,6 +13,10 @@ body{
     
 }
 
+.text{
+    font-size: 20px;
+}
+
 li{
     list-style: none;
     float: left;
@@ -35,28 +39,28 @@ a{
     text-align: center;
     margin-top: 0%;
 }
-.Parrafo{
+.Definiciòn{
     margin-top: -15%;
     padding-left: 45%;
     text-align: justify;
     margin-top: -13%;
+    height: 200px;
+    width: 90%;
     
 }
-.imagen{
-    width: 250px;
-    height: 250px;
-    padding-left: 20%;
-   
-}
-.imagen2{
+
+.rounded mx-auto d-block
+{
     width: 250px;
     height: 250px;
     padding-left: 20%;
     margin-top: 10%;
+    padding: 10px 10px;
+    
 }
 .imagen3{
-    width: 250px;
-    height: 250px;
+    width: 474px;
+    height: 474px;
     padding-left: 20%;
     margin-top: 20%;
 }
@@ -76,7 +80,7 @@ footer{
 
 .section-cards {
     width: 100%;
-    height: 500px;
+    height: 600px;
     background-color: rgb(244, 245, 196);
     text-align: center;
 }
@@ -99,11 +103,12 @@ footer{
     background-color: rgb(244, 245, 196);
     border-radius: 10px;
     justify-content: center;
+    margin-top: 100px;
 }
 
 .foto {
     width: 100%;
-    height: 350px;
+    height: 400px;
     object-fit: cover;
     background-color: rgb(247, 163, 108);
     border-radius: 10px 10px 0px 0px;
@@ -149,6 +154,12 @@ th{
 
 
 
+
+
+
+
+
+
 @media screen and (max-width: 660px) {
     body{
         margin-top: 0%;
@@ -158,9 +169,37 @@ th{
         position: static;
         text-align: center;
     }
-    .Parrafo{
+    .Definiciòn{
         padding-left: 15%;
         margin-top: 0%;
         width: 75%;
     }
+    .icono2{
+        margin-top: 500px;
+    }
+    .imagen3{
+        margin-top: 400px;
+       right: 0%;
+       left: 0%;
+       padding-left: 0%;
+       width: 100%;
+       height: 200%;
+    }
+    .inicio{
+        padding-left: 0%;
+        text-align: center;
+    }
+    .text{
+        text-align: center;
+        padding-left: 0%;
+    }
+    .card{
+       column-gap: 10cap;
+       display: flex;
+    }
+
+
+
 }
+
+
